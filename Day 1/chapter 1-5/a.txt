@@ -1,0 +1,36 @@
+Introduction to programming 
+computer is dumb only understand binary
+to make computer understad our language 
+we need to code
+ecmascript is a standard on which javascript is based on 
+3 types of variables in javascript
+var let and const 
+var : global scope and can be redeclared reinitialize 
+let can be updated n\but not redaclared
+const can neither be redeclare nor be updated
+const must be initialize during declaration unlike var or let
+
+different types of data types
+primitive and objects
+primitive : null number undefined string symbol bigint
+objects: an object in a javascript can be created as follows 
+const chakshu {
+    name: "chakshu",
+    age:18
+}
+let a = 45;
+let b = "hello";
+let c = null;
+let d = true;
+let e = BigInt("567")+BigInt("3");
+let f = Symbol("I am a nice symbol")
+let g = undefined;
+console.log(a,b,c,d,e,f,g)
+console.log(typeof d);
+const item = {
+  "harry":true,
+  "shubh":false,
+  "lovish":69,
+  "Rohan":undefined,
+}
+console.log(item["lovish"])
