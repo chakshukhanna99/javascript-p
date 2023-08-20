@@ -34,3 +34,54 @@ const item = {
   "Rohan":undefined,
 }
 console.log(item["lovish"])
+
+NEXT TOPIC STRINGS
+  let name ="harry"
+  name.length
+
+  to use bot sungle quote and double quote inside our string we are going to use backtics
+
+  let name = `harry`
+  let sentence = `my name is "harry'`
+
+  string interpolation
+  let a = 'This is${name}`
+  String properties and methods 
+
+  let name = "harry"
+  name.length
+  name.toUpperCase()
+  name.toLowerCase()
+  name.slice(2,4);   rr 
+  name.slice(2)   rry
+  let name = "Harry Bhai"
+  name.replace("Bhai","Bhau")
+
+
+let name1 ="harry"
+let name2 = "Namen"
+let name3 = name1.concat(name2,"yes")
+let name1 ="harry"
+let name2 = "Naman"
+let name3 = name1.concat(name2,"yes")
+console.log(name3);
+
+let name="harry "
+let newname=name.trim();
+console.log(newname)
+  trim removes whitespaces
+console.log(name[0])
+
+
+let fruit = "Bana\"na"
+console.log(fruit)
+
+in js type of arr is object 
+and objects are mutable can change while strings are not
+
+
+WE CAN ADD A NEW VALUE WE CAN UPDATE THE VALUE OF ARRAY OR ORIGNAL ARRAY UNLIKE SREINGS
+
+if we do document.get element by class name it will return a collection of html objects if we want to perform any operation on it we need to convert it to array first for whic we use array from 
+
+map just like for each but make a new array filter just filter out using the required condition & make a new array and reduce give a value reduce take valuesline wise for eg in array of 12345 first add 1 and 2 then add that to 3
